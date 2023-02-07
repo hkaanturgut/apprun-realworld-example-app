@@ -20,6 +20,7 @@ module.exports = {
   externals: { apprun: 'apprun', marked: 'marked' },
   devtool: 'source-map',
   devServer: {
+      disableHostCheck: true,
     static: {
       directory: __dirname,
     },
